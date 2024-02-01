@@ -22,3 +22,7 @@ Features provided by Next.js :
 #### Styles folder
 <li>Contains all the css part for Next.JS application.</li>
 
+### If route doesn't exist , Next.JS automatically gives an error 404 page.
+![Screenshot (172)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/319e2ad1-8744-4dad-ba23-ffe430738b32)
+
+
