@@ -37,5 +37,7 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>Next.JS comes with an incredible feature called file-based routing.</li>
 <li>Using file based routing , developers can simple create files inside pages folder and those pages will serve as routes for the application.</li>
 <li>If we create a page called contact.js inside pages folder of next.js application , we can view the component by visiting localhost:port/contact </li>
+<li>When a file is added to the page folder , it automatically acts like a route.</li>
+<li>Each page exports a react component which is rendered when corresponsing URL is visited by person visiting the page.</li>
 
 
