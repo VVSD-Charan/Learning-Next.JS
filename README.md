@@ -21,3 +21,6 @@ Features provided by Next.js :
 
 #### Styles folder
 Contains all CSS styles of our Next.JS application.
+
+## No page found
+Next.JS automatically displays no page found if a route is not valid , instead of giving an error.
