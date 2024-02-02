@@ -6,3 +6,18 @@ Features provided by Next.js :
 <li>Static site generation</li>
 <li>Built in router</li>
 <li>Various tools to optimize Search Engine Optimization.</li>
+
+## Folders in Next.js
+
+#### Public Folder :
+<li>Contains public directory of our next.js application.</li>
+<li>Anything put inside public folder will be publicly accessible on web application's server.</li>
+<li>We should not keep secret files inside this folder as they can easily be accessed by public users.</li>
+
+
+#### Pages Folder:
+<li>Pages are like react components.</li>
+<li>Pages follow file based routing approach.</li>
+
+#### Styles folder
+Contains all CSS styles of our Next.JS application.
