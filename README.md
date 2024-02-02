@@ -24,3 +24,5 @@ Contains all CSS styles of our Next.JS application.
 
 ## No page found
 Next.JS automatically displays no page found if a route is not valid , instead of giving an error.
+![Screenshot (172)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/f603f595-fad1-45d9-b7aa-6dbcae061564)
+
