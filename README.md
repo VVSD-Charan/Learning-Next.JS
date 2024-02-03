@@ -57,4 +57,11 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>Next.JS image component allows lazy loading (Only images in viewport are loaded i.e images which are at bottom and still not seen are not loaded)</li>
 <li>This optimization provided by Next.JS allows building of SEO friendly web applications.</li>
 
+## Dynamic routes in Next.JS
+<li>For dynamic routes we can use slug and get the dynamic segment using <strong>useRouter</strong></li>
+<li>If url pattern to see specific blog is /blogs/[blog_title] , then we need to create blogs folder in pages directory and a file named [slug].js inside blogs folder.</li>
+<li>Inside the [slug].js file , we can get the dynamic segment using <strong>useRouter</strong></li>
+![Screenshot (174)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/aefbd40f-2253-451c-833c-1f1945e257e8)
+
+
 
