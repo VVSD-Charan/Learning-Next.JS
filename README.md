@@ -45,4 +45,9 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>We can include scripts , use title tag and link stylesheets seperately in each page.</li>
 <li>To use head inside pages we must import head from Nex.JS using command <strong>import Head from 'next/head'</strong></li>
 
+## Scripts in Next.JS
+<li>The Next.JS script component is extension of HTML script element.</li>
+<li>It enables developers to set loading property of third-party scripts anywhere in their application without needing to append directly to 'next/head'</li>
+<li>Using script elements saves time of developers as well as improves loading performance.</li>
+
 
