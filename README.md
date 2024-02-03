@@ -63,6 +63,10 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>Inside the [slug].js file , we can get the dynamic segment using <strong>useRouter</strong></li>
 ![Screenshot (174)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/f8155652-fd59-424c-b2d1-7379f3d076eb)
 
+## HTML anchor tag (<a>) vs Next.JS Link (<Link>)
+<li>Next.JS Link offers features like prefetching and automatic need based fetching of static files , which improves performance of Next.JS application.</li>
+<li>Navigating using Next.JS link will not require loading , but HTML anchor tag requires loading.</li>
+
 
 
 
