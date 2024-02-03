@@ -50,4 +50,11 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>It enables developers to set loading property of third-party scripts anywhere in their application without needing to append directly to 'next/head'</li>
 <li>Using script elements saves time of developers as well as improves loading performance.</li>
 
+## Image component in Next.js
+<li>It is an extension of standard HTML element.</li>
+<li>Next.JS provides automatic image optimization , enabling provision of correctly sized images for diffferent devices using modern formats like AVIF and WebP.</li>
+<li>Optimization of images enhances website performance.</li>
+<li>Next.JS image component allows lazy loading (Only images in viewport are loaded i.e images which are at bottom and still not seen are not loaded)</li>
+<li>This optimization provided by Next.JS allows building of SEO friendly web applications.</li>
+
 
