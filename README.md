@@ -40,4 +40,21 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>When a file is added to the page folder , it automatically acts like a route.</li>
 <li>Each page exports a react component which is rendered when corresponsing URL is visited by person visiting the page.</li>
 
+## Head in Next.JS
+<li>Like html files , we can also use head inside pages in next.JS.</li>
+<li>We can include scripts , use title tag and link stylesheets seperately in each page.</li>
+<li>To use head inside pages we must import head from Nex.JS using command <strong>import Head from 'next/head'</strong></li>
+
+## Scripts in Next.JS
+<li>The Next.JS script component is extension of HTML script element.</li>
+<li>It enables developers to set loading property of third-party scripts anywhere in their application without needing to append directly to 'next/head'</li>
+<li>Using script elements saves time of developers as well as improves loading performance.</li>
+
+## Image component in Next.js
+<li>It is an extension of standard HTML element.</li>
+<li>Next.JS provides automatic image optimization , enabling provision of correctly sized images for diffferent devices using modern formats like AVIF and WebP.</li>
+<li>Optimization of images enhances website performance.</li>
+<li>Next.JS image component allows lazy loading (Only images in viewport are loaded i.e images which are at bottom and still not seen are not loaded)</li>
+<li>This optimization provided by Next.JS allows building of SEO friendly web applications.</li>
+
 
