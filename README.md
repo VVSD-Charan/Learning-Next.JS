@@ -40,4 +40,9 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>When a file is added to the page folder , it automatically acts like a route.</li>
 <li>Each page exports a react component which is rendered when corresponsing URL is visited by person visiting the page.</li>
 
+## Head in Next.JS
+<li>Like html files , we can also use head inside pages in next.JS.</li>
+<li>We can include scripts , use title tag and link stylesheets seperately in each page.</li>
+<li>To use head inside pages we must import head from Nex.JS using command <strong>import Head from 'next/head'</strong></li>
+
 
