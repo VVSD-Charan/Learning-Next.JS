@@ -67,6 +67,13 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>Next.JS Link offers features like prefetching and automatic need based fetching of static files , which improves performance of Next.JS application.</li>
 <li>Navigating using Next.JS link will not require loading , but HTML anchor tag requires loading.</li>
 
+## Component level CSS in Next.JS
+<li>Next.JS provides component level / module css using .module.css extension.</li>
+<li>CSS modules locally scope CSS using unique class name.</li>
+<li>Import css from .module.css will create an object which has key-value pairs. <strong>Key</strong> in the object is class name and <strong>value</strong> for the key is a unique name given by next.js to identify that class.</li>
+<li>This allowsto use the same class name in different files without worrying about collisions.</li>
+This behavior makes CSS Modules the ideal way to include component-level CSS
+
 
 
 
