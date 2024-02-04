@@ -75,6 +75,12 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>This module css helps us choose a styling from particular css file , by not allowing collisions or over-riding of styles.</li>
 This behavior makes CSS Modules the ideal way to include component-level CSS
 
+## Global CSS in Next.JS
+<li>To load global css , then we must import files in <strong>_app.js</strong> file.</li>
+<li>In pages , we can only import component level css i.e css files with extension .module.css .</li>
+<li>Importing .css files in pages will give an error.</li>
+<li>The default export of _app.js is a top-level React component that wraps all the pages in the application. We can use this component to keep state when navigating between pages, or to add global styles.</li>
+
 
 
 
