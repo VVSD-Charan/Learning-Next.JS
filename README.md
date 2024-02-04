@@ -61,6 +61,7 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>For dynamic routes we can use slug and get the dynamic segment using <strong>useRouter</strong></li>
 <li>If url pattern to see specific blog is /blogs/[blog_title] , then we need to create blogs folder in pages directory and a file named [slug].js inside blogs folder.</li>
 <li>Inside the [slug].js file , we can get the dynamic segment using <strong>useRouter</strong></li>
+
 ![Screenshot (174)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/f8155652-fd59-424c-b2d1-7379f3d076eb)
 
 ## HTML anchor tag (<a>) vs Next.JS Link (<Link>)
@@ -85,7 +86,9 @@ This behavior makes CSS Modules the ideal way to include component-level CSS
 <li>Styled JSX is a CSS-in-JS library that allows us to write encapsulated and scoped CSS to style components.</li>
 <li>The styles introduced for one component won't affect other components, allowing us to add, change and delete styles without worrying about unintended side effects.</li>
 <li>Styled JSX ensures the styles are scoped to this component only.</li>
-![Screenshot (175)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/efa23ae1-9655-4f8d-bdd5-da813e5c5018)
+
+![Screenshot (175)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/99eda9d8-6de5-4409-b266-74594793b8a4)
+
 <li>Most projects need some global styles to style the body element or provide css resets. Styled JSX allows us to add global styles using <strong><style jsx global></strong></li>
 
 
