@@ -81,6 +81,13 @@ This behavior makes CSS Modules the ideal way to include component-level CSS
 <li>Importing .css files in pages will give an error.</li>
 <li>The default export of _app.js is a top-level React component that wraps all the pages in the application. We can use this component to keep state when navigating between pages, or to add global styles.</li>
 
+## Styled jsx in Next.JS
+<li>Styled JSX is a CSS-in-JS library that allows us to write encapsulated and scoped CSS to style components.</li>
+<li>The styles introduced for one component won't affect other components, allowing us to add, change and delete styles without worrying about unintended side effects.</li>
+<li>Styled JSX ensures the styles are scoped to this component only.</li>
+![Screenshot (175)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/efa23ae1-9655-4f8d-bdd5-da813e5c5018)
+<li>Most projects need some global styles to style the body element or provide css resets. Styled JSX allows us to add global styles using <strong><style jsx global></strong></li>
+
 
 
 
