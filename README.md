@@ -61,11 +61,35 @@ We cannot compare which is better as NextJS uses react and has additional functi
 <li>For dynamic routes we can use slug and get the dynamic segment using <strong>useRouter</strong></li>
 <li>If url pattern to see specific blog is /blogs/[blog_title] , then we need to create blogs folder in pages directory and a file named [slug].js inside blogs folder.</li>
 <li>Inside the [slug].js file , we can get the dynamic segment using <strong>useRouter</strong></li>
+
 ![Screenshot (174)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/f8155652-fd59-424c-b2d1-7379f3d076eb)
 
 ## HTML anchor tag (<a>) vs Next.JS Link (<Link>)
 <li>Next.JS Link offers features like prefetching and automatic need based fetching of static files , which improves performance of Next.JS application.</li>
 <li>Navigating using Next.JS link will not require loading , but HTML anchor tag requires loading.</li>
+
+## Component level CSS in Next.JS
+<li>Next.JS provides component level / module css using .module.css extension.</li>
+<li>CSS modules locally scope CSS using unique class name.</li>
+<li>Import css from .module.css will create an object which has key-value pairs. <strong>Key</strong> in the object is class name and <strong>value</strong> for the key is a unique name given by next.js to identify that class.</li>
+<li>This allowsto use the same class name in different files without worrying about collisions.</li>
+<li>This module css helps us choose a styling from particular css file , by not allowing collisions or over-riding of styles.</li>
+This behavior makes CSS Modules the ideal way to include component-level CSS
+
+## Global CSS in Next.JS
+<li>To load global css , then we must import files in <strong>_app.js</strong> file.</li>
+<li>In pages , we can only import component level css i.e css files with extension .module.css .</li>
+<li>Importing .css files in pages will give an error.</li>
+<li>The default export of _app.js is a top-level React component that wraps all the pages in the application. We can use this component to keep state when navigating between pages, or to add global styles.</li>
+
+## Styled jsx in Next.JS
+<li>Styled JSX is a CSS-in-JS library that allows us to write encapsulated and scoped CSS to style components.</li>
+<li>The styles introduced for one component won't affect other components, allowing us to add, change and delete styles without worrying about unintended side effects.</li>
+<li>Styled JSX ensures the styles are scoped to this component only.</li>
+
+![Screenshot (175)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/99eda9d8-6de5-4409-b266-74594793b8a4)
+
+<li>Most projects need some global styles to style the body element or provide css resets. Styled JSX allows us to add global styles using <strong><style jsx global></strong></li>
 
 
 
