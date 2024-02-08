@@ -100,9 +100,16 @@ This behavior makes CSS Modules the ideal way to include component-level CSS
 
 ![Screenshot (177)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/25045ca4-f278-4601-ae21-afc46d760d06)
 
+## Types of pre-rendering done by Next.JS
+<ol>
+  <li><h3>Static Site Generation</h3></li>
+  <li><h3>Server Side rendering</h3></li>
+</ol>
+
 
 ## Hydration in JavaScript
 Each generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called hydration.)
+
 
 
 
