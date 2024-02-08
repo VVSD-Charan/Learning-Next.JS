@@ -91,6 +91,19 @@ This behavior makes CSS Modules the ideal way to include component-level CSS
 
 <li>Most projects need some global styles to style the body element or provide css resets. Styled JSX allows us to add global styles using <strong><style jsx global></strong></li>
 
+## Pre-rendering in Next.JS
+<li>By default, Next.js pre-renders every page. This means that Next.js generates HTML for each page in advance, instead of having it all done by client-side JavaScript. Pre-rendering can result in better performance and SEO.</li>
+<li>Because of pre-rendering , application is rendered without JavaScript. That’s because Next.js has pre-renders application into static HTML, allowing us to see the UI without running JavaScript.</li>
+<li>If an application is a plain React.js one (without Next.js),then there’s no pre-rendering, so we won’t be able to see the application if we disable JavaScript</li>
+
+![Screenshot (176)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/8dddf3e7-dcf7-4745-9b1a-88ed149f424f)
+
+![Screenshot (177)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/25045ca4-f278-4601-ae21-afc46d760d06)
+
+
+## Hydration in JavaScript
+Each generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called hydration.)
+
 
 
 
