@@ -106,6 +106,21 @@ This behavior makes CSS Modules the ideal way to include component-level CSS
   <li><h3>Server Side rendering</h3></li>
 </ol>
 
+## Static Site Generation
+<li>The HTML is generated at the build-time and re-used for each request</li>
+<li>Static site generation is faster but less flexible.</li>
+
+![Screenshot (178)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/01579ce3-cec0-42b8-b51f-c3bad73fc3bb)
+
+## Server Side Rendering
+<li>The HTML is generated on each request.</li>
+<li>Server-side rendering is more flexible, but requires more resources</li>
+
+![Screenshot (179)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/85695cc3-6c61-482b-aabf-02f33ff3ccf7)
+
+## Server side rendering vs Static Site Generation
+<li>Static Site Generation is preferable if the page is not frequently updated as it is much faster than having a server render the page on every request.</li>
+<li>But if the page is frequently updated , then Server side rendering will be a better choice.</li>
 
 ## Hydration in JavaScript
 Each generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called hydration.)
