@@ -91,6 +91,53 @@ This behavior makes CSS Modules the ideal way to include component-level CSS
 
 <li>Most projects need some global styles to style the body element or provide css resets. Styled JSX allows us to add global styles using <strong><style jsx global></strong></li>
 
+## Pre-rendering in Next.JS
+<li>By default, Next.js pre-renders every page. This means that Next.js generates HTML for each page in advance, instead of having it all done by client-side JavaScript. Pre-rendering can result in better performance and SEO.</li>
+<li>Because of pre-rendering , application is rendered without JavaScript. That’s because Next.js has pre-renders application into static HTML, allowing us to see the UI without running JavaScript.</li>
+<li>If an application is a plain React.js one (without Next.js),then there’s no pre-rendering, so we won’t be able to see the application if we disable JavaScript</li>
+
+![Screenshot (176)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/8dddf3e7-dcf7-4745-9b1a-88ed149f424f)
+
+![Screenshot (177)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/25045ca4-f278-4601-ae21-afc46d760d06)
+
+## Types of pre-rendering done by Next.JS
+<ol>
+  <li><h3>Static Site Generation</h3></li>
+  <li><h3>Server Side rendering</h3></li>
+</ol>
+
+## Static Site Generation
+<li>The HTML is generated at the build-time and re-used for each request</li>
+<li>Static site generation is faster but less flexible.</li>
+
+![Screenshot (178)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/01579ce3-cec0-42b8-b51f-c3bad73fc3bb)
+
+## Server Side Rendering
+<li>The HTML is generated on each request.</li>
+<li>Server-side rendering is more flexible, but requires more resources</li>
+
+![Screenshot (179)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/85695cc3-6c61-482b-aabf-02f33ff3ccf7)
+
+## Server side rendering vs Static Site Generation
+<li>Static Site Generation is preferable if the page is not frequently updated as it is much faster than having a server render the page on every request.</li>
+<li>But if the page is frequently updated , then Server side rendering will be a better choice.</li>
+
+## Implementing server side rendering
+<li>In server side rendering , HTML will be populated at request time.</li>
+<li>So, when we perform server side rendering , we can view entire data as HTML code in <strong>page source</strong></li>
+
+![Screenshot (180)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/ea117e89-3a51-4ee2-980a-2638d8ed5628)
+
+![Screenshot (181)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/b7ce4451-a141-458b-9e6a-e54ee874d607)
+
+The entire data in the page can be viewed if we use server side rendering
+
+
+
+## Hydration in JavaScript
+Each generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called hydration.)
+
+
 
 
 
