@@ -125,6 +125,7 @@ This behavior makes CSS Modules the ideal way to include component-level CSS
 ## Implementing server side rendering
 <li>In server side rendering , HTML will be populated at request time.</li>
 <li>So, when we perform server side rendering , we can view entire data as HTML code in <strong>page source</strong></li>
+<li>When server side rendering is implemented then there is no requirement for browser for executing javaScript code and call an API . All these tasks will be done by server itself.</li>
 
 ![Screenshot (180)](https://github.com/VVSD-Charan/Learning-Next.JS/assets/105978561/ea117e89-3a51-4ee2-980a-2638d8ed5628)
 
