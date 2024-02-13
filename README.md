@@ -145,6 +145,7 @@ The entire data in the page can be viewed if we use server side rendering
     </ol>
 </li>
 <li>In static site generation , Next.JS server executes all javaScript beforehand and keeps static pages which will be delivered on request.</li>
+<li>We use getStaticPaths to find out all possible data points.</li>
 
 ## Hydration in JavaScript
 Each generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called hydration.)
